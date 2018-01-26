@@ -27,7 +27,7 @@ MODULES["automaps"].SkipNumUnboughtPrestiges = 2;   //exceeding this number of u
 MODULES["automaps"].UnearnedPrestigesRequired = 2;
 MODULES["automaps"].maxMapBonusAfterZ = MODULES["automaps"].maxMapBonus;   //Max Map Bonus After Zone uses this many stacks 
                                                                  //- init as default value (10). user can set if they want.
-
+MODULES["automaps"].advSpecialSelect.value = "fa";
 
 //Initialize Global Vars (dont mess with these ones, nothing good can come from it).
 var stackingTox = false;
